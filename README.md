@@ -1,7 +1,16 @@
-User story created:
+# bookmark-manager
 
-As a user so that I can see what bookmarks I have, I would like to see a list of bookmarks.
-<img src = "sequence_diagram.jpg">
+###User  stories
+
+As a <Stakeholder>,
+So that <Motivation>,
+I'd like <Task>.
+
+As a User
+So that I can keep a record of interesting websites,
+I'd like to view a list of bookmarks.
+
+<img src = "domain_model.jpg">
 
 ### How to create a table
 
