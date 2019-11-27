@@ -41,6 +41,7 @@ This command displays all columns from the table "bookmarks" and shows us an emp
 id | url
 ----+------
 (0 rows)
+
 2. Using INSERT to add data to a table
 
 Manual ID
@@ -83,4 +84,12 @@ DELETE FROM bookmarks WHERE url = 'http://www.twitter.com';
 To update a table row, we can do this:
 
 UPDATE bookmarks SET url = 'http://www.destroyallsoftware.com' WHERE url = 'http://www.askjeeves.com';
+```
+### Creating a Testing Environment
+
+```
+Create a test database using psql
+- psql
+- CREATE DATABASE "bookmark_manager_test";
+- CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));
 ```

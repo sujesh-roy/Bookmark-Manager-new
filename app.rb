@@ -8,8 +8,10 @@ get '/' do
 end
 
 get '/bookmarks' do
-@bookmarklist = Bookmarks.new
-@bookmarklist.all
+  p ENV
+  
+ @bookmarklist = Bookmarks.new
+ @bookmarklist.all
   erb :bookmarks
 end
 
