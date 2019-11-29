@@ -93,3 +93,20 @@ Create a test database using psql
 - CREATE DATABASE "bookmark_manager_test";
 - CREATE TABLE bookmarks(id SERIAL PRIMARY KEY, url VARCHAR(60));
 ```
+
+# User stories
+
+```
+As a user
+So that I can add and store a website
+I would like to be able to add a new bookmark
+```
+### Adding Bookmarks
+
+```
+Feature test to include  
+      -- visit the page /addbookmark
+      -- a form to type the url into
+      -- form submit
+      -- check to see if the new url has been added
+```

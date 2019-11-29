@@ -9,3 +9,5 @@ gem 'rspec', group: :test
 gem 'capybara', group: :test
 gem 'sinatra'
 gem 'pg'
+gem 'simplecov'
+gem 'simplecov-console'
